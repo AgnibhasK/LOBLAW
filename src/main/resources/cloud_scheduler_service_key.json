@@ -1,0 +1,12 @@
+{
+"type": "service_account",
+"project_id": "mindful-baton-356707",
+"private_key_id": "a798c00b3b67d62323b8a631c9b45833918974f6",
+"private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDefEZpP/lV+PjY\nLVLPS1CB2UntLBG37uL5A5dBY14wZOfh5qddnMeTszY+8+A8ODofkJT2U1z+3dFt\npjRbGcb9tZiWTNjdh+qeI3UGR+OGarIZYpysh1Xl+jmCnR8ipMgW2fdZgiWtYnvo\nOjg136HxVV/40Lb5E1zhNpZGfeSwHO8XeyS4+zBpp4uNl0jeFpFTOJJOnnXFk/K6\nQBo/FuXbLljjlGcN7ANQg5o+CnPtCTZe/y7nfGoLWJa+rqmPe4+odlTowS0ZLJqv\nU0FtB8obupUrehZ229HJnxAl5E8GY1Z+sU/04udlTWNhdKfAZuQZ3dHT46Grmd0S\nKZlra0bNAgMBAAECggEAJhkk24gTc8fnIOmd+RZeCmZBlQYLYLJdFqQpRg60hdf5\np0LenRaoTGAPZXdQii9csKQLBiVfUtt8LekcpQ8EdtSedPpi1oicQgkzVGiCCzYB\nGny69IZWTMPtDjNGriGGi/c2NpMlTYwESM+TaZJKgm+KuCpRctSAfqZg1GBhhVCV\nVTQf+we/ih+SGO/3A9mxwWdNOqlDmNMojyvaUNMX37UxGSYq+KEvQrFgvCKkXDlL\ndJ+9C6MnOD6DcVfu4J/bxlceBLj2Yt1GGNp/AKmE9YlY7JJqqrs8FfbPaEcX1cxy\nF1WpbnzKAPQMuf6Az/mCEvFPXFcn6fpwyPMiet/q9wKBgQD0CvSEvOJH5fEs+rt9\nN3pIISNAWFGph0YJpOAeHYPq+equXfkgK3UP6ZxujZ9yJqjQ5pYJVJQrQo3XJ2xV\nsRDbIhDpW5Lw5VL8Pu6645Ei1b/Ua4C2AZIKxvsj2XggP5A3dFYb8AGYCGV51We8\nizElVkWp1Eb+1rwAcS2o/bwrkwKBgQDpYuy5ZJ0QZEDIkPa8nGi38T2lxZBTKKxi\n3ZeE8wqHksH3IyiCqpLIeU7/fe2OYw1zSNJn3crPfYJi+uywWyHe9f3ZO2Exc3HC\nhgzGEBhqxsbP/Vzua8cyu3LWBXH2exWv644iggpwY18ng1TQJIn5j7OF3RYoVOju\nQ7XjIRYAHwKBgQDFtF5VbsQOpT0WSGY90gTxjE8HoMU/hwR5aaXbH+QwJ5k0+5KI\nukwSwRnnAjrK+oDHBBdGpcuHpFpOlHSSk2jpbhavRm2rVM0+5yj2JMf+pZXL2++h\nA3Kx4nOwnkxQK86E7m2YIn7YEO1Mn1N0DnuZGORE6mE9sO8LmKT6A90+mwKBgQCy\nINLU3ToTnLDlY98uLaKvYezPbW6uScjo3IAc9PMAbr6kRa1RrabCY/QrhI2fs3I8\nn0QYCmwU2ZJ+wU2NfMDpT48kEfIosBgPhAiT0w0P0g9EB/i58IDk87S+LQHCQkdX\nMc4WAHK/PNkPa2l8Q6cbVtaKQSf8OHJgCEX2yPXluQKBgQDsVxlpApoaRrs8zeRu\nMJqG8Fs/rmUjNRGQiMkBiy4x5GJfhJp1RMYWxXyafIizVdeQj0FP4bSG0dhgQrCs\nQBOGbsxKtUgA5VA6Lyu3EvsW4zrwwFXGaWznJNFcnb/2xIezVXlNkFTSwpHbJHhD\niFIcfN5kIZ75+UAg7v1hVjwsiA==\n-----END PRIVATE KEY-----\n",
+"client_email": "service-account@mindful-baton-356707.iam.gserviceaccount.com",
+"client_id": "110447728509061957001",
+"auth_uri": "https://accounts.google.com/o/oauth2/auth",
+"token_uri": "https://oauth2.googleapis.com/token",
+"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+"client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/service-account%40mindful-baton-356707.iam.gserviceaccount.com"
+}
