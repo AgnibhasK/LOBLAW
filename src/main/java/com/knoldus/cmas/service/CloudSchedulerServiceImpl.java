@@ -1,5 +1,8 @@
 package com.knoldus.cmas.service;
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.PropertyAccessor;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.api.client.googleapis.auth.oauth2.GoogleCredential;
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
 import com.google.api.client.http.HttpTransport;
@@ -18,7 +21,7 @@ import java.security.GeneralSecurityException;
 @Service
 public class CloudSchedulerServiceImpl implements CloudSchedulerService{
 
-    static String jsonPath="cmas/src/main/resources/cloud_scheduler_service_key.json";
+    static String jsonPath="src/main/resources/cloud_scheduler_service_key.json";
 
     String parent="projects/mindful-baton-356707/locations/asia-northeast1";
 
