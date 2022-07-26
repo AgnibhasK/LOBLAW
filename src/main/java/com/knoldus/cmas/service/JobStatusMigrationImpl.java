@@ -1,15 +1,15 @@
 package com.knoldus.cmas.service;
 
-//public class JobStatusMigrationImpl implements JobStatusMigration{
-//    @Override
-//    public CloudScheduler cloudTaskScheduler(Long id){
-//        try (CloudSchedulerClient cloudSchedulerClient = CloudSchedulerClient.create()) {
-//            JobName name = JobName.of("[PROJECT]", "[LOCATION]", "[JOB]");
-//            Job response = cloudSchedulerClient.getJob(name);
-//        }catch(IOException e){
-//            e.printStackTrace();
-//        }
-//        return ;
-//    }
-//}
+public class JobStatusMigrationImpl implements JobStatusMigration{
+
+    @Override
+    public JobStatusMigration getJobStatusById(Long id){
+        return null;
+    }
+
+    @Override
+    public JobStatusMigration setJobstatus(JobStatusMigration jobstatus){
+        return null;
+    }
+}
 
