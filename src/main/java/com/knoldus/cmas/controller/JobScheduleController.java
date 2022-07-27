@@ -25,7 +25,7 @@ public class JobScheduleController{
         Job requestBody=new Job();
         HttpTarget http=new HttpTarget();
         requestBody.setName("projects/mindful-baton-356707/locations/asia-northeast1/jobs/" + job_id);
-        requestBody.setHttpTarget(http.setUri("https://jsonplaceholder.typicode.com/posts"));
+        requestBody.setHttpTarget(http.setUri("https://jsonplaceholder.typicode.com/posts"+job_id));
 
         requestBody.setScheduleTime("2022-07-25T09:06:42Z");
         requestBody.setSchedule("* * * * *");

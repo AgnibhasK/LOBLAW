@@ -1,7 +1,11 @@
-package com.knoldus.cmas.service;//package com.example.loblaw.Cmas.service;
+package com.knoldus.cmas.service;
+
+import com.knoldus.cmas.entity.JobStatus;
+
+import java.util.concurrent.ExecutionException;
 
 public interface JobStatusMigration{
-   JobStatusMigration getJobStatusById(Long id);
-   JobStatusMigration setJobstatus(JobStatusMigration jobstatus);
+//    JobStatus getJobStatusById(Long id);
+    String setJobstatus(JobStatus jobstatus) throws ExecutionException, InterruptedException;
 
 }
