@@ -1,4 +1,4 @@
-package com.knoldus.cmas.entity;
+package com.knoldus.cmas.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

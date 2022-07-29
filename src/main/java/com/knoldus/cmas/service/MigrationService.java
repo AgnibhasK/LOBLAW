@@ -1,6 +1,6 @@
 package com.knoldus.cmas.service;
 
-import com.knoldus.cmas.entity.MigrationResponse;
+import com.knoldus.cmas.response.MigrationResponse;
 
 import java.util.List;
 import java.util.concurrent.ExecutionException;

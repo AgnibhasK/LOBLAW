@@ -1,6 +1,6 @@
 package com.knoldus.cmas.controller;
 
-import com.knoldus.cmas.entity.MigrationResponse;
+import com.knoldus.cmas.response.MigrationResponse;
 import com.knoldus.cmas.service.MigrationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

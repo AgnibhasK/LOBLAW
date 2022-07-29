@@ -1,16 +1,17 @@
-package com.knoldus.cmas.service;
+package com.knoldus.cmas.service.impl;
 
 
 import com.google.api.core.ApiFuture;
 import com.google.cloud.firestore.*;
 import com.google.firebase.cloud.FirestoreClient;
-import com.knoldus.cmas.entity.MigrationResponse;
+import com.knoldus.cmas.response.MigrationResponse;
+import com.knoldus.cmas.service.MigrationService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 @Service
-public class MigrationServiceImpl implements MigrationService{
+public class MigrationServiceImpl implements MigrationService {
     private static final String COLLECTION_NAME="MigrationResponse";
 
     @Override

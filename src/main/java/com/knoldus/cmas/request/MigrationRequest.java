@@ -1,7 +1,5 @@
-package com.knoldus.cmas.entity;
+package com.knoldus.cmas.request;
 
-import com.google.cloud.Timestamp;
-import com.google.cloud.firestore.DocumentReference;
 import com.google.cloud.firestore.annotation.DocumentId;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,11 +10,9 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class JobStatus{
-    private String job_id;
+public class MigrationRequest {
     private String tenant_id;
     private List<Integer> customer_id;
     private String migration_direction;
     private String scheduled_start_time;
-    private String status;
 }

@@ -1,17 +1,13 @@
-package com.knoldus.cmas.service;
+package com.knoldus.cmas.service.impl;
 
-import com.fasterxml.jackson.annotation.JsonAutoDetect;
-import com.fasterxml.jackson.annotation.PropertyAccessor;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.api.client.googleapis.auth.oauth2.GoogleCredential;
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
 import com.google.api.client.http.HttpTransport;
 import com.google.api.client.json.JsonFactory;
 import com.google.api.client.json.jackson2.JacksonFactory;
 import com.google.api.services.cloudscheduler.v1.CloudScheduler;
-import com.google.api.services.cloudscheduler.v1.model.HttpTarget;
-import com.google.api.services.cloudscheduler.v1.model.Job;
 import com.google.common.collect.Lists;
+import com.knoldus.cmas.service.CloudSchedulerService;
 import org.springframework.stereotype.Service;
 
 import java.io.FileInputStream;
@@ -19,7 +15,7 @@ import java.io.IOException;
 import java.security.GeneralSecurityException;
 
 @Service
-public class CloudSchedulerServiceImpl implements CloudSchedulerService{
+public class CloudSchedulerServiceImpl implements CloudSchedulerService {
 
     static String jsonPath="src/main/resources/cloud_scheduler_service_key.json";
 
