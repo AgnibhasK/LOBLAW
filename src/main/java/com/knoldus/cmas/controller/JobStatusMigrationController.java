@@ -1,6 +1,5 @@
 package com.knoldus.cmas.controller;
 
-import com.google.cloud.firestore.DocumentReference;
 import com.knoldus.cmas.entity.JobStatus;
 
 import com.knoldus.cmas.request.MigrationRequest;
@@ -17,11 +16,11 @@ public class JobStatusMigrationController{
     @Autowired
     private JobStatusMigration jobStatusMigration;
     @GetMapping("/job/status/{id}")
-    public JobStatus getJobStatusById(@PathVariable String id) throws ExecutionException, InterruptedException {
-        return jobStatusMigration.getCustomersByJobId(id);
+    public JobStatus getJobDetailsById(@PathVariable String id) throws ExecutionException, InterruptedException {
+        return jobStatusMigration.getJobDetailsById(id);
     }
     @PostMapping("/schedule/job")
-    public String getJobStatusById(@RequestBody MigrationRequest migrationRequest) throws ExecutionException, InterruptedException, GeneralSecurityException, IOException {
-        return jobStatusMigration.setJobstatus(migrationRequest);
+    public String saveJobDetails(@RequestBody MigrationRequest migrationRequest) throws ExecutionException, InterruptedException, GeneralSecurityException, IOException {
+        return jobStatusMigration.saveJobDetails(migrationRequest);
     }
 }

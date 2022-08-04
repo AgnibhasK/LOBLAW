@@ -15,7 +15,7 @@ import java.util.List;
 public class JobStatus{
     private String job_id;
     private String tenant_id;
-    private List<Integer> customer_id;
+    private List<Integer> customer_list;
     private String migration_direction;
     private String scheduled_start_time;
     private String status;
